@@ -1,0 +1,100 @@
+header{
+    background-color: #d0e5ff;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+header>img{
+    max-width: 25%;
+    max-height: 25%;
+}
+
+h1{
+    padding: 1rem;
+}
+
+body{
+    background-color: #150045;
+    color: white;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body h2{
+    text-align: center;
+    font-size: 65px;
+}
+
+main img{
+    max-width: 25%;
+    margin: .5rem 0;
+    display: inline-block;
+    align-items:flex-start;
+}
+
+footer h3{
+    text-align: center;
+}
+
+body footer{
+    background-color: #d0e5ff;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+}
+
+.heading h2{
+    display: none;
+}
+
+@media(min-width:1500px){
+    header{
+        width: 30%;
+        margin: auto;
+    }
+
+    h1{
+        padding: 1rem;
+    }
+
+    .about-me h2{
+        display: none;
+    }
+
+    .gallery h2{
+        display: none;
+    }
+
+    .heading{
+        display: flex;
+    }
+
+    main{
+        display: flex;
+    }
+
+    .gallery{
+        display: block;
+    }
+
+    footer p{
+        display: inline;
+        margin: 6rem;
+    }
+
+    .heading h2{
+        display: block;
+    }
+}
+
+
